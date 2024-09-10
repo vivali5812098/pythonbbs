@@ -1,0 +1,167 @@
+240523
+书：flask web 全栈开发实战 黄勇
+功能：
+注册，登陆，发布帖子，首页，帖子详情，个人中心，CMS管理系统，日志，
+
+
+目录：
+环境搭建
+项目配置
+url与视图
+jinja2模板：过滤器和测试器，控制语句，模板结构，模板环境，
+数据库，mysql-》pymysql-》flask-sqlalchemy（orm模型），表关系，级联操作，orm模型迁移
+表单
+进阶:类视图，蓝图，cookie和session ，request对象，flask信号机制，钩子函数，上下文（线程隔离对象，），
+缓存系统：memcached，redis
+项目实战，
+websocket实战，
+flask异步编程
+
+安装包
+pip freeze > requirements.txt
+
+pip install -r requirements.txt
+
+报错：
+DEPRECATION: celery 5.1.2 has a non-standard dependency specifier pytz>dev. pip 24.1 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of
+celery or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+
+数据库：
+-- sql
+create database pythonbbs charset=utf8mb4;
+
+报错：数据库迁移不成功
+flask db init
+flask db migrate -m "create permission and role model"
+flask db upgrade
+
+改为：
+flask db stamp head
+flask db migrate -m "create permission and role model"
+flask db upgrade
+
+类似：
+python app.py db stamp head
+python app.py db migrate
+python app.py db upgrade
+
+
+
+#redis 配置
+1.启动redis-server
+cmd输入：redis-server
+
+启动redis-cli
+
+redis的服务器默认为127.0.0.1:6379 ,访问即可，不用改ip
+
+有时候要修改ip配置：
+修改redis server的两个配置文件
+bind 127.0.0.1		    //本地
+bind 192.168.1.100     //局域网访问
+bind 200.200.1.153    //外网访问
+
+#邮箱发送 完成
+celery 任务调度来完成，验证码限时缓存在redis中
+
+#启动celery 任务调度器
+celery -A app.celery worker -P gevent -l info
+
+在flask中click库用来创建命令行命令
+使用faker库来生成测试数据文本
+
+========================
+部署
+Ubuntu 20.04 lts server
+导出依赖包+python3.9
+pip freeze > requirement.txt
+pip install -r requirements.txt
+
+pycharm可以进行版本控制，生成git包
+使用git上传代码等，但是不太会用
+
+linux：
+安装openssh
+sudo apt install openssh-server openssh-client
+(windows:putty or xshell)
+安装vim：
+sudo apt install vim
+mysql:
+sudo apt install mysql-server mysql-client
+sudo apt install libmysqld-dev
+redis:
+sudo apt install redis
+python:
+sudo apt install python3
+sudo apt install python3-pip
+sudo apt install python3-dev
+
+安装git:
+sudo apt install git
+
+配置网站：
+新建用户：zhiliao用户，赋予root权限
+adduser zhiliao
+usermod aG sudo zhiliao
+su zhiliao
+
+使用git拉取代码：
+cd /home/zhiliao
+mkdir pythonbbs
+git remote add origin https://gitbub.com/.../pythonbbs.git
+git pull origin main
+
+安装python依赖包
+pip install -r requirements.txt
+登陆mysql后：
+create database pythonbbs charset utf8mb4
+同步ORM模型到数据库中：
+flask db upgrade
+
+创建初始数据：
+flask create-role
+...
+
+运行celery,项目依赖celery,celery依赖redis
+sudo service redis start
+
+使用gunicorn部署网站
+sudo pip install gunicorn
+
+根目录下：创建gunicorn.conf.py文件，为配置文件
+import multiprocessing
+bind='127.0.0.1:8000'
+workers=multiprocessing.cpu_count()*2+1
+accesslog="/var/log/pythonbbs/access.log"
+daemon=True
+
+启动：
+gunicorn app:app
+
+使用nginx部署
+sudo apt install nginx
+start:
+sudo service nginx start
+close:
+sudo service nginx stop
+test:
+sudo service nginx configtest
+
+nginx配置文件：/etc/nginx/conf.d创建pythonbbs.conf
+添加代码：略（负载均衡，配置服务器，等）
+
+开关防火墙：
+sudo ufw enable
+sudo ufw allow 80 80端口
+sudo ufw deny 8000
+sudo ufw allow 22 ssh服务
+
+压力测试：
+sudo apt install apache2-utils
+ab -n 50000 -c 1000 http://127.0.0.1/
+
+
+其他：
+electron
+flutter2
+

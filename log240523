@@ -1,0 +1,447 @@
+(pythonbbs) PS C:\Users\Admin\Desktop\workplace\python\pythonbbs> pip list
+Package    Version
+---------- -------
+pip        24.0
+setuptools 69.5.1
+wheel      0.43.0
+(pythonbbs) PS C:\Users\Admin\Desktop\workplace\python\pythonbbs> pip install -r requirements.txt
+Collecting alembic==1.6.5 (from -r requirements.txt (line 1))
+  Downloading alembic-1.6.5-py2.py3-none-any.whl.metadata (7.0 kB)
+Collecting amqp==5.0.6 (from -r requirements.txt (line 2))
+  Downloading amqp-5.0.6-py3-none-any.whl.metadata (8.8 kB)
+Collecting billiard==3.6.4.0 (from -r requirements.txt (line 3))
+  Downloading billiard-3.6.4.0-py3-none-any.whl.metadata (4.5 kB)
+Collecting blinker==1.4 (from -r requirements.txt (line 4))
+  Downloading blinker-1.4.tar.gz (111 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 111.5/111.5 kB 1.3 MB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Collecting celery==5.1.2 (from -r requirements.txt (line 5))
+  Downloading celery-5.1.2-py3-none-any.whl.metadata (20 kB)
+Collecting cffi==1.14.6 (from -r requirements.txt (line 6))
+  Downloading cffi-1.14.6-cp39-cp39-win_amd64.whl.metadata (1.2 kB)
+Collecting click==7.1.2 (from -r requirements.txt (line 7))
+  Downloading click-7.1.2-py2.py3-none-any.whl.metadata (2.9 kB)
+Collecting click-didyoumean==0.0.3 (from -r requirements.txt (line 8))
+  Downloading click-didyoumean-0.0.3.tar.gz (2.6 kB)
+  Preparing metadata (setup.py) ... done
+Collecting click-plugins==1.1.1 (from -r requirements.txt (line 9))
+  Downloading click_plugins-1.1.1-py2.py3-none-any.whl.metadata (6.4 kB)
+Collecting click-repl==0.2.0 (from -r requirements.txt (line 10))
+  Downloading click_repl-0.2.0-py3-none-any.whl.metadata (316 bytes)
+Collecting colorama==0.4.4 (from -r requirements.txt (line 11))
+  Downloading colorama-0.4.4-py2.py3-none-any.whl.metadata (14 kB)
+Collecting cryptography==3.4.7 (from -r requirements.txt (line 12))
+  Downloading cryptography-3.4.7-cp36-abi3-win_amd64.whl.metadata (5.1 kB)
+Collecting dnspython==1.16.0 (from -r requirements.txt (line 13))
+  Downloading dnspython-1.16.0-py2.py3-none-any.whl.metadata (1.8 kB)
+Collecting email-validator==1.1.3 (from -r requirements.txt (line 14))
+  Downloading email_validator-1.1.3-py2.py3-none-any.whl.metadata (18 kB)
+Collecting enum-compat==0.0.3 (from -r requirements.txt (line 15))
+  Downloading enum_compat-0.0.3-py3-none-any.whl.metadata (954 bytes)
+Collecting eventlet==0.31.1 (from -r requirements.txt (line 16))
+  Downloading eventlet-0.31.1-py2.py3-none-any.whl.metadata (4.3 kB)
+Collecting Faker==8.12.0 (from -r requirements.txt (line 17))
+  Downloading Faker-8.12.0-py3-none-any.whl.metadata (14 kB)
+Collecting Flask==2.0.1 (from -r requirements.txt (line 18))
+  Downloading Flask-2.0.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting Flask-Avatars==0.2.2 (from -r requirements.txt (line 19))
+  Downloading Flask_Avatars-0.2.2-py2.py3-none-any.whl.metadata (1.5 kB)
+Collecting Flask-Caching==1.10.1 (from -r requirements.txt (line 20))
+  Downloading Flask_Caching-1.10.1-py3-none-any.whl.metadata (3.7 kB)
+Collecting Flask-Mail==0.9.1 (from -r requirements.txt (line 21))
+  Downloading Flask-Mail-0.9.1.tar.gz (45 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.7/45.7 kB 2.2 MB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Collecting Flask-Migrate==3.1.0 (from -r requirements.txt (line 22))
+  Downloading Flask_Migrate-3.1.0-py3-none-any.whl.metadata (3.1 kB)
+Collecting flask-paginate==0.8.1 (from -r requirements.txt (line 23))
+  Downloading flask_paginate-0.8.1-py2.py3-none-any.whl.metadata (1.1 kB)
+Collecting Flask-SQLAlchemy==2.5.1 (from -r requirements.txt (line 24))
+  Downloading Flask_SQLAlchemy-2.5.1-py2.py3-none-any.whl.metadata (3.1 kB)
+Collecting Flask-WTF==0.15.1 (from -r requirements.txt (line 25))
+  Downloading Flask_WTF-0.15.1-py2.py3-none-any.whl.metadata (2.1 kB)
+Collecting gevent==21.8.0 (from -r requirements.txt (line 26))
+  Downloading gevent-21.8.0-cp39-cp39-win_amd64.whl.metadata (13 kB)
+Collecting greenlet==1.1.1 (from -r requirements.txt (line 27))
+  Downloading greenlet-1.1.1-cp39-cp39-win_amd64.whl.metadata (3.6 kB)
+Collecting idna==3.2 (from -r requirements.txt (line 28))
+  Downloading idna-3.2-py3-none-any.whl.metadata (8.6 kB)
+Collecting itsdangerous==2.0.1 (from -r requirements.txt (line 29))
+  Downloading itsdangerous-2.0.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting Jinja2==3.0.1 (from -r requirements.txt (line 30))
+  Downloading Jinja2-3.0.1-py3-none-any.whl.metadata (3.5 kB)
+Collecting kombu==5.1.0 (from -r requirements.txt (line 31))
+  Downloading kombu-5.1.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting Mako==1.1.4 (from -r requirements.txt (line 32))
+  Downloading Mako-1.1.4-py2.py3-none-any.whl.metadata (2.8 kB)
+Collecting MarkupSafe==2.0.1 (from -r requirements.txt (line 33))
+  Downloading MarkupSafe-2.0.1-cp39-cp39-win_amd64.whl.metadata (3.2 kB)
+Collecting Pillow==8.3.1 (from -r requirements.txt (line 34))
+  Downloading Pillow-8.3.1-1-cp39-cp39-win_amd64.whl.metadata (7.4 kB)
+Collecting prompt-toolkit==3.0.19 (from -r requirements.txt (line 35))
+  Downloading prompt_toolkit-3.0.19-py3-none-any.whl.metadata (7.0 kB)
+Collecting pycparser==2.20 (from -r requirements.txt (line 36))
+  Downloading pycparser-2.20-py2.py3-none-any.whl.metadata (907 bytes)
+Collecting PyMySQL==1.0.2 (from -r requirements.txt (line 37))
+  Downloading PyMySQL-1.0.2-py3-none-any.whl.metadata (5.1 kB)
+Collecting python-dateutil==2.8.2 (from -r requirements.txt (line 38))
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl.metadata (8.2 kB)
+Collecting python-editor==1.0.4 (from -r requirements.txt (line 39))
+  Downloading python_editor-1.0.4-py3-none-any.whl.metadata (2.2 kB)
+Collecting pytz==2021.1 (from -r requirements.txt (line 40))
+  Downloading pytz-2021.1-py2.py3-none-any.whl.metadata (21 kB)
+Collecting redis==3.5.3 (from -r requirements.txt (line 41))
+  Downloading redis-3.5.3-py2.py3-none-any.whl.metadata (36 kB)
+Collecting shortuuid==1.0.1 (from -r requirements.txt (line 42))
+  Downloading shortuuid-1.0.1-py3-none-any.whl.metadata (4.7 kB)
+Collecting six==1.16.0 (from -r requirements.txt (line 43))
+  Downloading six-1.16.0-py2.py3-none-any.whl.metadata (1.8 kB)
+Collecting SQLAlchemy==1.4.22 (from -r requirements.txt (line 44))
+  Downloading SQLAlchemy-1.4.22-cp39-cp39-win_amd64.whl.metadata (9.4 kB)
+Collecting text-unidecode==1.3 (from -r requirements.txt (line 45))
+  Downloading text_unidecode-1.3-py2.py3-none-any.whl.metadata (2.4 kB)
+Collecting vine==5.0.0 (from -r requirements.txt (line 46))
+  Downloading vine-5.0.0-py2.py3-none-any.whl.metadata (2.2 kB)
+Collecting wcwidth==0.2.5 (from -r requirements.txt (line 47))
+  Downloading wcwidth-0.2.5-py2.py3-none-any.whl.metadata (11 kB)
+Collecting Werkzeug==2.0.1 (from -r requirements.txt (line 48))
+  Downloading Werkzeug-2.0.1-py3-none-any.whl.metadata (4.4 kB)
+Collecting WTForms==2.3.3 (from -r requirements.txt (line 49))
+  Downloading WTForms-2.3.3-py2.py3-none-any.whl.metadata (3.7 kB)
+Collecting zope.event==4.5.0 (from -r requirements.txt (line 50))
+  Downloading zope.event-4.5.0-py2.py3-none-any.whl.metadata (4.3 kB)
+Collecting zope.interface==5.4.0 (from -r requirements.txt (line 51))
+  Downloading zope.interface-5.4.0-cp39-cp39-win_amd64.whl.metadata (40 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.6/40.6 kB 1.9 MB/s eta 0:00:00
+Requirement already satisfied: setuptools in c:\users\admin\.conda\envs\pythonbbs\lib\site-packages (from celery==5.1.2->-r requirements.txt (line 5)) (69.5.1)
+Downloading alembic-1.6.5-py2.py3-none-any.whl (164 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 164.7/164.7 kB 5.0 MB/s eta 0:00:00
+Downloading amqp-5.0.6-py3-none-any.whl (53 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.8/53.8 kB 2.9 MB/s eta 0:00:00
+Downloading billiard-3.6.4.0-py3-none-any.whl (89 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 89.5/89.5 kB 5.0 MB/s eta 0:00:00
+Downloading celery-5.1.2-py3-none-any.whl (401 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 401.9/401.9 kB 8.3 MB/s eta 0:00:00
+Downloading cffi-1.14.6-cp39-cp39-win_amd64.whl (180 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 180.3/180.3 kB 1.2 MB/s eta 0:00:00
+Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 82.8/82.8 kB 4.5 MB/s eta 0:00:00
+Downloading click_plugins-1.1.1-py2.py3-none-any.whl (7.5 kB)
+Downloading click_repl-0.2.0-py3-none-any.whl (5.2 kB)
+Downloading colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+Downloading cryptography-3.4.7-cp36-abi3-win_amd64.whl (1.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 8.5 MB/s eta 0:00:00
+Downloading dnspython-1.16.0-py2.py3-none-any.whl (188 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 188.4/188.4 kB 5.6 MB/s eta 0:00:00
+Downloading email_validator-1.1.3-py2.py3-none-any.whl (18 kB)
+Downloading enum_compat-0.0.3-py3-none-any.whl (1.3 kB)
+Downloading eventlet-0.31.1-py2.py3-none-any.whl (224 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 224.5/224.5 kB 6.9 MB/s eta 0:00:00
+Downloading Faker-8.12.0-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 9.3 MB/s eta 0:00:00
+Downloading Flask-2.0.1-py3-none-any.whl (94 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 94.8/94.8 kB 5.3 MB/s eta 0:00:00
+Downloading Flask_Avatars-0.2.2-py2.py3-none-any.whl (103 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 103.4/103.4 kB 5.8 MB/s eta 0:00:00
+Downloading Flask_Caching-1.10.1-py3-none-any.whl (34 kB)
+Downloading Flask_Migrate-3.1.0-py3-none-any.whl (20 kB)
+Downloading flask_paginate-0.8.1-py2.py3-none-any.whl (7.0 kB)
+Downloading Flask_SQLAlchemy-2.5.1-py2.py3-none-any.whl (17 kB)
+Downloading Flask_WTF-0.15.1-py2.py3-none-any.whl (13 kB)
+Downloading gevent-21.8.0-cp39-cp39-win_amd64.whl (1.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 3.8 MB/s eta 0:00:00
+Downloading greenlet-1.1.1-cp39-cp39-win_amd64.whl (96 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 96.4/96.4 kB 2.8 MB/s eta 0:00:00
+Downloading idna-3.2-py3-none-any.whl (59 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.6/59.6 kB 395.1 kB/s eta 0:00:00
+Downloading itsdangerous-2.0.1-py3-none-any.whl (18 kB)
+Downloading Jinja2-3.0.1-py3-none-any.whl (133 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.7/133.7 kB 2.0 MB/s eta 0:00:00
+Downloading kombu-5.1.0-py3-none-any.whl (187 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 187.4/187.4 kB 2.8 MB/s eta 0:00:00
+Downloading Mako-1.1.4-py2.py3-none-any.whl (75 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 75.7/75.7 kB 2.1 MB/s eta 0:00:00
+Downloading MarkupSafe-2.0.1-cp39-cp39-win_amd64.whl (14 kB)
+Downloading Pillow-8.3.1-1-cp39-cp39-win_amd64.whl (3.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 4.2 MB/s eta 0:00:00
+Downloading prompt_toolkit-3.0.19-py3-none-any.whl (368 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 368.4/368.4 kB 4.6 MB/s eta 0:00:00
+Downloading pycparser-2.20-py2.py3-none-any.whl (112 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 112.0/112.0 kB 3.2 MB/s eta 0:00:00
+Downloading PyMySQL-1.0.2-py3-none-any.whl (43 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.8/43.8 kB 1.1 MB/s eta 0:00:00
+Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.7/247.7 kB 5.1 MB/s eta 0:00:00
+Downloading python_editor-1.0.4-py3-none-any.whl (4.9 kB)
+Downloading pytz-2021.1-py2.py3-none-any.whl (510 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 510.8/510.8 kB 4.6 MB/s eta 0:00:00
+Downloading redis-3.5.3-py2.py3-none-any.whl (72 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 72.1/72.1 kB 4.1 MB/s eta 0:00:00
+Downloading shortuuid-1.0.1-py3-none-any.whl (7.5 kB)
+Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Downloading SQLAlchemy-1.4.22-cp39-cp39-win_amd64.whl (1.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 3.7 MB/s eta 0:00:00
+Downloading text_unidecode-1.3-py2.py3-none-any.whl (78 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.2/78.2 kB 2.2 MB/s eta 0:00:00
+Downloading vine-5.0.0-py2.py3-none-any.whl (9.4 kB)
+Downloading wcwidth-0.2.5-py2.py3-none-any.whl (30 kB)
+Downloading Werkzeug-2.0.1-py3-none-any.whl (288 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 288.2/288.2 kB 4.4 MB/s eta 0:00:00
+Downloading WTForms-2.3.3-py2.py3-none-any.whl (169 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 169.1/169.1 kB 5.1 MB/s eta 0:00:00
+Downloading zope.event-4.5.0-py2.py3-none-any.whl (6.8 kB)
+Downloading zope.interface-5.4.0-cp39-cp39-win_amd64.whl (210 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 210.7/210.7 kB 4.3 MB/s eta 0:00:00
+Building wheels for collected packages: blinker, click-didyoumean, Flask-Mail
+  Building wheel for blinker (setup.py) ... done
+  Created wheel for blinker: filename=blinker-1.4-py3-none-any.whl size=13484 sha256=8bc77b5ece0a3102075df1c546b85d498bddb2256c201c27a0b6dd6b6c332b36
+  Stored in directory: c:\users\admin\appdata\local\pip\cache\wheels\50\93\f8\4f0a42a03a06626d675f13907b6982ad5ecff383530af5a900
+  Building wheel for click-didyoumean (setup.py) ... done
+  Created wheel for click-didyoumean: filename=click_didyoumean-0.0.3-py3-none-any.whl size=2131 sha256=6b7f67888bceb1ac7775097dc08c49b9a7783038c8c14a1acdb32d869e0eb2c2
+  Stored in directory: c:\users\admin\appdata\local\pip\cache\wheels\8e\65\f1\72b26505d64ac43ea4cad5c07d97eda18ade90dccc32e71a75
+  Building wheel for Flask-Mail (setup.py) ... done
+  Created wheel for Flask-Mail: filename=Flask_Mail-0.9.1-py3-none-any.whl size=7594 sha256=30ea3285e2aa8b16e7002dec1ca630d90f97a85f4a6039273a29d6de551fbb8a
+  Stored in directory: c:\users\admin\appdata\local\pip\cache\wheels\46\f9\d1\7fb1d1ae35210f02223b4502e2724235cffaed49e22df5007f
+Successfully built blinker click-didyoumean Flask-Mail
+DEPRECATION: celery 5.1.2 has a non-standard dependency specifier pytz>dev. pip 24.1 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of
+celery or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+SQL, pycparser, prompt-toolkit, Pillow, MarkupSafe, itsdangerous, idna, greenlet, dnspython, colorama, click, WTForms, SQLAlchemy, python-dateutil, Mako, Jinja2, eventlet, email-va
+-Caching, Flask-Avatars, celery, Flask-Migrate
+Successfully installed Faker-8.12.0 Flask-2.0.1 Flask-Avatars-0.2.2 Flask-Caching-1.10.1 Flask-Mail-0.9.1 Flask-Migrate-3.1.0 Flask-SQLAlchemy-2.5.1 Flask-WTF-0.15.1 Jinja2-3.0.1 M
+ako-1.1.4 MarkupSafe-2.0.1 Pillow-8.3.1 PyMySQL-1.0.2 SQLAlchemy-1.4.22 WTForms-2.3.3 Werkzeug-2.0.1 alembic-1.6.5 amqp-5.0.6 billiard-3.6.4.0 blinker-1.4 celery-5.1.2 cffi-1.14.6
+lask-paginate-0.8.1 gevent-21.8.0 greenlet-1.1.1 idna-3.2 itsdangerous-2.0.1 kombu-5.1.0 prompt-toolkit-3.0.19 pycparser-2.20 python-dateutil-2.8.2 python-editor-1.0.4 pytz-2021.1
+redis-3.5.3 shortuuid-1.0.1 six-1.16.0 text-unidecode-1.3 vine-5.0.0 wcwidth-0.2.5 zope.event-4.5.0 zope.interface-5.4.0
+(pythonbbs) PS C:\Users\Admin\Desktop\workplace\python\pythonbbs> flask db init
+Error: Directory migrations already exists and is not empty
+(pythonbbs) PS C:\Users\Admin\Desktop\workplace\python\pythonbbs> flask db migrate -m "create permission and role model"
+INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+ERROR [flask_migrate] Error: Target database is not up to date.
+(pythonbbs) PS C:\Users\Admin\Desktop\workplace\python\pythonbbs> flask db upgrade
+INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+INFO  [alembic.runtime.migration] Running upgrade  -> 5e1dacecfe8c, create permission and role model
+INFO  [alembic.runtime.migration] Running upgrade 5e1dacecfe8c -> 510b7126b120, create front model
+INFO  [alembic.runtime.migration] Running upgrade 510b7126b120 -> 47dde31b98c0, create post board banner comment model
+INFO  [alembic.runtime.migration] Running upgrade 47dde31b98c0 -> cd7a9d3254a5, empty message
+INFO  [alembic.runtime.migration] Running upgrade cd7a9d3254a5 -> 7600f5255f11, empty message
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\sqlalchemy\engine\base.py", line 1771, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\sqlalchemy\engine\default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'pythonbbs.user' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\Scripts\flask.exe\__main__.py", line 7, in <module>
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\flask\cli.py", line 990, in main
+    cli.main(args=sys.argv[1:])
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\flask\cli.py", line 596, in main
+    return super().main(*args, **kwargs)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\click\core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\click\core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\click\core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\click\core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\click\core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\click\decorators.py", line 21, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\flask\cli.py", line 440, in decorator
+    return __ctx.invoke(f, *args, **kwargs)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\click\core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\flask_migrate\cli.py", line 149, in upgrade
+    _upgrade(directory, revision, sql, tag, x_arg)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\flask_migrate\__init__.py", line 98, in wrapped
+    f(*args, **kwargs)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\flask_migrate\__init__.py", line 185, in upgrade
+    command.upgrade(config, revision, sql=sql, tag=tag)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\alembic\command.py", line 294, in upgrade
+    script.run_env()
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\alembic\script\base.py", line 490, in run_env
+    util.load_python_file(self.dir, "env.py")
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\alembic\util\pyfiles.py", line 97, in load_python_file
+    module = load_module_py(module_id, path)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\alembic\util\compat.py", line 184, in load_module_py
+    spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "migrations\env.py", line 91, in <module>
+    run_migrations_online()
+  File "migrations\env.py", line 85, in run_migrations_online
+    context.run_migrations()
+  File "<string>", line 8, in run_migrations
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\alembic\runtime\environment.py", line 813, in run_migrations
+    self.get_context().run_migrations(**kw)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\alembic\runtime\migration.py", line 561, in run_migrations
+    step.migration_fn(**kw)
+  File "C:\Users\Admin\Desktop\workplace\python\pythonbbs\migrations\versions\7600f5255f11_.py", line 21, in upgrade
+    op.add_column('user', sa.Column('is_active', sa.Boolean(), server_default=sa.text('1'), nullable=True))
+  File "<string>", line 8, in add_column
+  File "<string>", line 3, in add_column
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\alembic\operations\ops.py", line 1801, in add_column
+    return operations.invoke(op)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\alembic\operations\base.py", line 354, in invoke
+    return fn(self, operation)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\alembic\operations\toimpl.py", line 135, in add_column
+    operations.impl.add_column(table_name, column, schema=schema, **kw)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\alembic\ddl\impl.py", line 256, in add_column
+    self._exec(base.AddColumn(table_name, column, schema=schema))
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\alembic\ddl\impl.py", line 146, in _exec
+    return conn.execute(construct, multiparams)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\sqlalchemy\engine\base.py", line 1263, in execute
+    return meth(self, multiparams, params, _EMPTY_EXECUTION_OPTS)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\sqlalchemy\sql\ddl.py", line 77, in _execute_on_connection
+    return connection._execute_ddl(
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\sqlalchemy\engine\base.py", line 1353, in _execute_ddl
+    ret = self._execute_context(
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\sqlalchemy\engine\base.py", line 1814, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\sqlalchemy\engine\base.py", line 1995, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\sqlalchemy\engine\base.py", line 1771, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\sqlalchemy\engine\default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+    packet.raise_for_error()
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1146, "Table 'pythonbbs.user' doesn't exist")
+[SQL: ALTER TABLE user ADD COLUMN is_active BOOL DEFAULT 1]
+(pythonbbs) PS C:\Users\Admin\Desktop\workplace\python\pythonbbs> flask db migrate -m "create permission and role model"
+INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+ERROR [flask_migrate] Error: Target database is not up to date.
+(pythonbbs) PS C:\Users\Admin\Desktop\workplace\python\pythonbbs> flask db stamp head
+INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+INFO  [alembic.runtime.migration] Running stamp_revision  -> c143fec1e7c7
+(pythonbbs) PS C:\Users\Admin\Desktop\workplace\python\pythonbbs> flask db migrate -m "create permission and role model"
+INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+INFO  [alembic.autogenerate.compare] Detected added table 'board'
+INFO  [alembic.autogenerate.compare] Detected added table 'permission'
+INFO  [alembic.autogenerate.compare] Detected added table 'role'
+INFO  [alembic.autogenerate.compare] Detected added table 'user'
+INFO  [alembic.autogenerate.compare] Detected added table 'post'
+INFO  [alembic.autogenerate.compare] Detected added table 'comment'
+Generating C:\Users\Admin\Desktop\workplace\python\pythonbbs\migrations\versions\951805f6e452_create_permission_and_role_model.py ...  done
+INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+INFO  [alembic.runtime.migration] Running upgrade c143fec1e7c7 -> 951805f6e452, create permission and role model
+(pythonbbs) PS C:\Users\Admin\Desktop\workplace\python\pythonbbs> flask create-test-user
+Usage: flask [OPTIONS] COMMAND [ARGS]...
+Try 'flask --help' for help.
+
+Error: No such command 'create-test-user'.
+(pythonbbs) PS C:\Users\Admin\Desktop\workplace\python\pythonbbs> flask db migrate -m "create user model"
+INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+INFO  [alembic.autogenerate.compare] Detected added foreign key (post_id)(id) on table comment
+INFO  [alembic.autogenerate.compare] Detected added foreign key (author_id)(id) on table comment
+INFO  [alembic.autogenerate.compare] Detected added foreign key (board_id)(id) on table post
+INFO  [alembic.autogenerate.compare] Detected added foreign key (permission_id)(id) on table role_permission_table
+INFO  [alembic.autogenerate.compare] Detected added foreign key (role_id)(id) on table role_permission_table
+INFO  [alembic.autogenerate.compare] Detected added foreign key (role_id)(id) on table user
+Generating C:\Users\Admin\Desktop\workplace\python\pythonbbs\migrations\versions\cca47b50ad06_create_user_model.py ...  done
+INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+INFO  [alembic.runtime.migration] Running upgrade 951805f6e452 -> cca47b50ad06, create user model
+(pythonbbs) PS C:\Users\Admin\Desktop\workplace\python\pythonbbs> flask create-test-user
+Usage: flask [OPTIONS] COMMAND [ARGS]...
+Try 'flask --help' for help.
+
+Error: No such command 'create-test-user'.
+(pythonbbs) PS C:\Users\Admin\Desktop\workplace\python\pythonbbs> flask create-test-front
+测试用户添加成功！
+(pythonbbs) PS C:\Users\Admin\Desktop\workplace\python\pythonbbs> flask create-admin
+Traceback (most recent call last):
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\Scripts\flask.exe\__main__.py", line 7, in <module>
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\flask\cli.py", line 990, in main
+    cli.main(args=sys.argv[1:])
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\flask\cli.py", line 596, in main
+    return super().main(*args, **kwargs)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\click\core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\click\core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\click\core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\click\core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\click\decorators.py", line 21, in new_func
+    return f(get_current_context(), *args, **kwargs)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\flask\cli.py", line 440, in decorator
+    return __ctx.invoke(f, *args, **kwargs)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\click\core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "C:\Users\Admin\Desktop\workplace\python\pythonbbs\commands.py", line 62, in create_admin
+    admin_user = UserModel(username=username, email=email, password=password, is_staff=True, role=admin_role)
+  File "<string>", line 4, in __init__
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\sqlalchemy\orm\state.py", line 480, in _initialize_instance
+    manager.dispatch.init_failure(self, args, kwargs)
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\sqlalchemy\util\compat.py", line 207, in raise_
+    raise exception
+  File "C:\Users\Admin\.conda\envs\pythonbbs\lib\site-packages\sqlalchemy\orm\state.py", line 477, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+    self.password = kwargs.get('password')
+    self._password = generate_password_hash(raw_password)
+    h, actual_method = _hash_internal(method, salt, password)
+    password = password.encode("utf-8")
+AttributeError: 'NoneType' object has no attribute 'encode'
+Error: -p option requires an argument
+管理员创建成功！
+板块添加成功！
+开始生成测试帖子...
+测试帖子生成成功！
+(pythonbbs) PS C:\Users\Admin\Desktop\workplace\python\pythonbbs> flask create-permission
+权限添加成功！
+(pythonbbs) PS C:\Users\Admin\Desktop\workplace\python\pythonbbs> flask create-role
+角色添加成功！
+(pythonbbs) PS C:\Users\Admin\Desktop\workplace\python\pythonbbs> flask create-admin -u admin -e 1111111111@qq.com -p 111111
+管理员创建成功！
+(pythonbbs) PS C:\Users\Admin\Desktop\workplace\python\pythonbbs> flask create-test-front
+测试用户添加成功！
+(pythonbbs) PS C:\Users\Admin\Desktop\workplace\python\pythonbbs>
