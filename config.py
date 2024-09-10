@@ -20,7 +20,7 @@ class DevelopmentConfig(BaseConfig):
   MAIL_USE_SSL = True
   MAIL_PORT = 465
   MAIL_USERNAME = "1158736587@qq.com"
-  MAIL_PASSWORD = "nequcaepvlbcfjdj"#不能更改，否则得重新获取
+  MAIL_PASSWORD = "邮箱smtp码"#不能更改，否则得重新获取
   MAIL_DEFAULT_SENDER = "1158736587@qq.com"
 
   # 缓存配置
